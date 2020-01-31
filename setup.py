@@ -10,7 +10,6 @@ if sys.version_info <= (2, 6):
 
 setup(
     name="envplus",
-    version="0.0.0",
     version="0.0.1",
     description="Combine your virtualenvs.",
     long_description="",
@@ -33,7 +32,6 @@ setup(
     include_package_data=False,
     zip_safe=False,
     install_requires=[
-        "virtualenvwrapper"
         "virtualenvwrapper",
         "env"
     ] + py26_dependency,
