@@ -1,6 +1,7 @@
+from __future__ import absolute_import
 import env
-import pathfile
-import helpers
+import envplus.pathfile
+import envplus.helpers
 
-VERSION_TUPLE = (0, 0, 0)
+VERSION_TUPLE = (0, 0, 1)
 VERSION = ".".join(map(str, VERSION_TUPLE))
